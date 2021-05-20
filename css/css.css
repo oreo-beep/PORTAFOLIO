@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'KoHo', sans-serif;
+}
+:root{
+    --color1: #FA8072;
+    --color2: #E9E9E9;
+    --color3: #FFFFFF;
+    --color4: #17202A;
+}
+body{
+    background-color: var(--color1);
+    font-size: 10px;
+}
+.formulario{    
+    width: 38em;
+    height: 55em;
+    border: 1px solid var(--color3);
+    background-color: var(--color3);
+    border-radius: 0.5em;
+    margin: auto;
+    margin-top: 10em;
+    padding: 5em;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: var(--color4);
+    font-size: 1.6em;
+    
+}
+.parrafo{
+    color: var(--color4);
+    font-size: 1em;
+    margin-top: 1.3em;
+    text-align: justify;
+}
+.name, .gmail, .mensaje{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    color: var(--color4);
+    font-size: 1.2em; 
+    
+}
+.fullname, .email{
+    display: flex;
+    flex-direction: column;
+    width: 21em;
+    height: 3.5em;
+    margin: auto;
+    margin-top: 1em;
+    border: 0;
+    border-radius: 0.3em;
+    background-color: var(--color2);
+    outline: 0;
+    text-align: left;
+    padding: 0em 1em 0em 1em;
+    font-size: 1.2em;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 23em;
+    height: 8em;
+    margin: auto;
+    margin-top: 1em;
+    border: 0;
+    border-radius: 0.3em;
+    background-color: var(--color2);
+    outline: 0;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 1em;
+    box-sizing: border-box;
+    resize: none;
+    
+}
+.btn-submit{
+    display: flex;
+    flex-direction: row;
+    width: 8em;
+    height: 3em;
+    margin-top: 1em;
+    border: 0;
+    border-radius: 0.2em;
+    background-color: var(--color1);
+    outline: 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--color3);
+}
+.submit{
+    float: left;
+    width: 6em;
+    height: 3.75em;
+    border: 0;
+    border-radius: 0.3em;
+    background-color: var(--color1);
+    margin-left: 0.5em;
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--color3);
+}
+.arrow{
+    width: 0.8em;
+    height: 2em;
+    border: 0;
+    border-radius: 0.3em;
+    background-color: var(--color1);
+    margin-right: 1em;
+    text-align: left;
+    font-size: 1.5em;
+    color: var(--color3);
+}
